@@ -1,0 +1,17 @@
+{% extends 'base/main.html' %}
+{% block content %}
+
+<div class="register-container">
+<h1>Register</h1>
+
+<form class="register-frm" method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    
+    <input class="button" type="submit" value="Register"/>
+</form>
+
+
+<p>Already have an account ? <a style="text-decoration:none" href="{% url 'login' %}">Login</a></p>
+</div>
+{% endblock content %}

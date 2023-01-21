@@ -1,0 +1,14 @@
+{% extends 'base/main.html' %}
+{% block content %}
+
+<div class="task-frm-container">
+<h3>Task Form</h3>
+<a style="text-decoration:none" href="{% url 'tasks' %}">Go Back</a>
+<form class="frm-btn" method= "POST" action="">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input class="button" type="submit" value="Submit">
+</form>
+</div>
+
+{% endblock content %}
