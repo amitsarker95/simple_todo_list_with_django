@@ -7,4 +7,4 @@
 5. User can delete a task.<br>
 6. User can make any task complete.<br>
 <ul>
-## With out an account user can't login or access home page.
+<h3> With out an account user can't login or access home page.</h3>
