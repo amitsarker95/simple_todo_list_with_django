@@ -1,10 +1,10 @@
-## Todo list
+## Todo list. <br>
 <ul>
-# User can Register an account.
-# User can login and logout in his account.
-# User can create a new task.
-# User can edit his task.
-# User can delete a task.
-# User can make any task complete.
-
+1. User can Register an account. <br>
+2. User can login and logout in his account.<br>
+3. User can create a new task.<br>
+4. User can edit his task.<br>
+5. User can delete a task.<br>
+6. User can make any task complete.<br>
+<ul>
 ## With out an account user can't login or access home page.
